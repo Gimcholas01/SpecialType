@@ -6,6 +6,7 @@ function getRandomInt(max) {
 
 function set(){
     window.words_arr = "";
+    document.getElementById("display").innerHTML += "<a id='typeWriter'></a>"
     window.amountOfWords = 20
     for (let i = 0; i < amountOfWords; i++) {
 
