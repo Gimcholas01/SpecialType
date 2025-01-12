@@ -13,7 +13,7 @@ function set(){
         var temp = list_of_words[getRandomInt(list_of_words.length)]
         words_arr+=temp
 
-        document.getElementById("display").innerHTML += "<a id=" + i + ">" + temp + "<a id=" + i + ">";
+        document.getElementById("display").innerHTML += "<a id=" + i + ">" + temp + "</a>";
     }
 }
 
